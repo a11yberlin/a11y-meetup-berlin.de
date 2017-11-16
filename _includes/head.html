@@ -2,8 +2,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{% if page.title %}{{ page.title }} | {% endif %} a11y meetup berlin</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %} a11y Meetup Berlin</title>
     <meta name="description" content="">
 
-    <link rel="stylesheet" href="{{ "./css/main.css" }}">
+    <link rel="stylesheet" href="{{ " ./css/main.css " }}">
+    <link rel="manifest" href="./manifest.manifest" />
+
+    <meta property="og:site_name" content="{% if page.title %}{{ page.title }} | {% endif %}a11y Meetup Berlin">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}a11y Meetup Berlin">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }} {% else %} A usergroup about accessibility and inclusive design.{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {% endif %}a11y Meetup Berlin">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }} {% else %} A usergroup about accessibility and inclusive design.{% endif %}">
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Website",
+            "publisher": {
+                "@type": "Organization",
+                "name": "{% if page.title %}{{ page.title }} | {% endif %}a11y Meetup Berlin",
+                "logo": ""
+            },
+            "url": {
+                {
+                    {{ site.url }}{{ page.url }}
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": {
+                    {
+                        {{ site.url }}{{ page.url }}
+                    }
+                }
+            },
+            "description": "{% if page.description %}{{ page.description }} {% else %} A usergroup about accessibility and inclusive design.{% endif %}"
+        }
+    </script>
 </head>
