@@ -11,7 +11,7 @@ If you want to get this repo running locally on your machine, you’ll need to g
 To install Jekyll, open up your command line and type 
 
 ```
-gem install jekyll
+bundle install
 ```
 
 ### Run Jekyll
