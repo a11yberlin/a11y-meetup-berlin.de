@@ -3,28 +3,36 @@ layout: default
 title: Meetups 
 description: An archive of previous Meetups
 ---
-<section id="meetup-1">
-    <h2>Meetup #1</h2>
-    <p><time datetime="2018-01-16">January 16<sup>th</sup> 2018</time></p>
-    <p>The Meetup will take place at <a href="https://www.google.com/maps/search/?api=1&query=Julie-Wolfthorn-Stra%C3%9Fe+1%2C+Berlin%2C+de" rel="noopener">Project A</a></p>
-    <a href="https://www.meetup.com/de-DE/A11y-Meetup-Berlin/events/245047218">RSVP</a>
-    <h2>Talks</h2>
-    <article>
-        <h3>Talk title</h3>
-        <p>Speaker</p>
-        <a href="#">Link to Speaker</a>
-        <p>Description of the talk</p>
-    </article>
-    <article>
-        <h3>Talk title</h3>
-        <p>Speaker</p>
-        <a href="#">Link to Speaker</a>
-        <p>Description of the talk</p>
-    </article>
-    <article>
-        <h3>Talk title</h3>
-        <p>Speaker</p>
-        <a href="#">Link to Speaker</a>
-        <p>Description of the talk</p>
-    </article>
+<section id="meetup-1" class="event">
+    <h2 class="event__title">Meetup #1</h2>
+    <p class="event__date"><time datetime="2018-01-16">January 16<sup>th</sup> 2018</time></p>
+    <div class="event__description">
+        <p>We're extremely happy to invite you to our first meetup.</p>
+        <p>
+            Mark your calendars for A11y Meetup Berlin #1 on January 16, 2018. Please share with your friends and spread the word.
+            Our kind supporter <a href="https://www.google.com/maps/search/?api=1&query=Julie-Wolfthorn-Stra%C3%9Fe+1%2C+Berlin%2C+de" rel="noopener">Project A</a> will arrange the community space and catering.
+        </p>
+        <p>
+            Doors open: 7:00pm<br>
+            Talks start: 7:30pm
+        </p>
+    </div>
+    <div class="event__link">
+        <a class="button button--green" href="https://www.meetup.com/de-DE/A11y-Meetup-Berlin/events/245047218">RSVP</a>
+    </div>
+    <h3>Talks</h3>
+    <div>
+        {% include teaser.html
+            headline="Wheelmap.org"
+            subline="Svenja Heinecke"
+            text="Talk description"
+            link="http://wheelmap.org"
+        %}
+        {% include teaser.html
+            headline="Decrease your conversion - common ways to lock people out"
+            subline="Stefan Judis"
+            text="Talk description"
+            link="https://speakerdeck.com/stefanjudis/decrease-your-conversion-common-ways-to-lock-people-out"
+        %}
+    </div>
 </section>

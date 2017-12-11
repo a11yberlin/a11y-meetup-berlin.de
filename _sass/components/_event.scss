@@ -1,0 +1,18 @@
+.event {
+  margin-bottom: 5rem;
+}
+
+.event__title {
+  margin-bottom: 0;
+}
+
+.event__date {
+  margin-top: 0;
+  font-size: 1.3rem;
+  color: $color-secondary;
+  font-weight: bold;
+}
+
+.event__link {
+  margin: 2rem 0;
+}

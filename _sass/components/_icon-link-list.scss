@@ -1,0 +1,25 @@
+.icon-link-list {
+  padding: 0;
+  list-style: none;
+  
+  li {
+    margin-bottom: 1em;
+  }
+
+  a {
+    text-decoration: none;
+    border: none;
+
+    &:hover,
+    &:focus {
+      span {
+        border-bottom: 3px solid;
+      }
+    }
+  }
+
+  img {
+    margin-right: 1em;
+    vertical-align: middle;
+  }
+}

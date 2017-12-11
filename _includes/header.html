@@ -1,11 +1,18 @@
-<header role="banner">
-    <nav aria-label="Main Navigation">
-        <ul>
-            <li><a href="index.html">a11y Berlin</a></li>
-            <li><a href="meetups.html">Meetups</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="submit.html">Submit a talk</a></li>
-        </ul>
-    </nav>
-    <h1>{% if page.title %}{{ page.title }} {% else %} a11y Meetup Berlin {% endif %}</h1>
+<header role="banner" class="site-header">
+    <div class="l-container l-flexbox">
+        <a href="index.html" class="logo">
+            <img src="images/logo.jpg" class="logo__img" alt="a11y Berlin">
+        </a>
+        <div class="site-header__nav">
+            <p>A usergroup about accessibility and inclusive design.</p>
+            <nav aria-label="Main Navigation" class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="meetups.html">Meetups</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="submit.html">Submit a talk</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 </header>
