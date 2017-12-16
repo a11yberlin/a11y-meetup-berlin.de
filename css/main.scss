@@ -17,6 +17,7 @@ $color-text: #111;
 $color-green: #00c800;
 $color-light-background: #efefef;
 
+@import "mixins";
 @import "base";
 @import "layout";
 @import "components/site-header";

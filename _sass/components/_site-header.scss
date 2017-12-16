@@ -1,7 +1,7 @@
 .site-header {
   padding: $default-spacing 0;
-  background: $color-primary;
-  color: #FFF;
+  @include dark-background();
+  @include decorative-outline($color-primary);
 }
 
 .site-header__nav {

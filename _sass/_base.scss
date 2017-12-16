@@ -60,3 +60,24 @@ p {
 sup {
     font-size: 0.6em;
 }
+
+abbr {
+    text-decoration: none;
+
+    &:after {
+        border-bottom: none;
+        content: '?';
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        margin-left: 0.5em;
+        line-height: 1rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+        background: $color-light-background;
+        color: $color-primary;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: super;
+    }
+}
