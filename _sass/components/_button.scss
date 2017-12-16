@@ -20,5 +20,7 @@
   &:hover,
   &:focus {
     background-color: $color-green;
+    border-color: $color-text;
+    color: $color-text;
   }
 }
