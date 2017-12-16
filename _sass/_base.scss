@@ -42,7 +42,7 @@ a {
     color: $color-primary;
     border-bottom: 1px solid;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1em;
     font-weight: bold;
     transition: border-width 0.1s, color 0.1s;
 
@@ -80,4 +80,8 @@ abbr {
         text-align: center;
         vertical-align: super;
     }
+}
+
+blockquote {
+    margin: 0;
 }
