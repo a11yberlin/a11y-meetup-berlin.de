@@ -1,5 +1,5 @@
 # a11y-meetup-berlin.de
-Website for the a11y Meetup Berlin
+Website for the A11y Meetup Berlin
 
 
 ## Contributing
