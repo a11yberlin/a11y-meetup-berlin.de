@@ -4,6 +4,30 @@
 @charset "utf-8";
 
 // variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: -apple-system, BlinkMacSystemFont, 
+"Segoe UI", "Roboto", "Oxygen",
+"Ubuntu", "Cantarell", "Fira Sans",
+"Droid Sans", "Helvetica Neue", sans-serif;
 
+$default-spacing: 2rem;
+
+$color-primary: #003846;
+$color-secondary: #c91700;
+$color-text: #111;
+$color-green: #00c800;
+$color-light-background: #efefef;
+
+@import "mixins";
 @import "base";
+@import "layout";
+@import "components/site-header";
+@import "components/site-footer";
+@import "components/main-nav";
+@import "components/logo";
+@import "components/button";
+@import "components/event";
+@import "components/teaser";
+@import "components/icon-link-list";
+@import "components/highlight-section";
+@import "components/skip-link";
+@import "helper";

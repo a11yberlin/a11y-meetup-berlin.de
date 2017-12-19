@@ -1,0 +1,4 @@
+.site-footer {
+  padding: $default-spacing + 0.7rem 0 $default-spacing;
+  @include dark-background();
+}

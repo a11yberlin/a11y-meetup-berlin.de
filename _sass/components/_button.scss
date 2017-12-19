@@ -1,0 +1,26 @@
+.button {
+  padding: 0.8em 1.2em 0.6em;
+  background-color: $color-primary;
+  line-height: 1;
+  border-bottom: 3px solid transparent;
+  display: inline-block;
+  color: #FFF;
+  transition: background-color 0.3s;
+  font-size: 1.2rem;
+
+  &:hover,
+  &:focus {
+    background-color: $color-secondary;
+    border-color: $color-primary;
+    color: #FFF;
+  }
+}
+
+.button--green {
+  &:hover,
+  &:focus {
+    background-color: $color-green;
+    border-color: $color-text;
+    color: $color-text;
+  }
+}

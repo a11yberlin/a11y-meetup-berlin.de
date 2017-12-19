@@ -1,0 +1,6 @@
+.highlight-section {
+  padding: $default-spacing 0;
+  margin: 0 auto;
+  background: $color-light-background;
+  @include decorative-outline($color-light-background);
+}

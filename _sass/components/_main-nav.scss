@@ -1,0 +1,28 @@
+.main-nav {
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li {
+        @media (min-width: 52rem) {
+            display: inline;
+            margin-right: 1em;
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+    a {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: none;
+        border: none;
+        color: #FFF;
+        letter-spacing: 0.1em;
+        &:hover,
+        &:focus,
+        &[aria-current="page"] {
+            border-bottom: 3px solid;
+        }
+    }
+}

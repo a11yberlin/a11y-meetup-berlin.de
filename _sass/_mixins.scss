@@ -1,0 +1,12 @@
+@mixin dark-background() {
+  background-color: $color-primary;
+  color: #FFF;
+
+  a {
+    color: #FFF;
+  }
+}
+
+@mixin decorative-outline($color: currentColor) {
+  outline: 0.7rem dashed $color;
+}
