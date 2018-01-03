@@ -1,9 +1,11 @@
-<section class="highlight-section">
-    <div class="l-container">
-        <h2>Code of conduct</h2>
-        <p>If you are attending, organizing or speaking at our event, you are required to agree with our <a href="code-of-conduct.html">Code&nbsp;of&nbsp;Conduct.</a></p>
-    </div>
-</section>
+{% if page.url != "/code-of-conduct.html" %}
+    <section class="highlight-section">
+        <div class="l-container">
+            <h2>Code of conduct</h2>
+            <p>If you are attending, organizing or speaking at our event, you are required to agree with our <a href="code-of-conduct.html">Code&nbsp;of&nbsp;Conduct.</a></p>
+        </div>
+    </section>
+{% endif %}
 <footer role="contentinfo" class="site-footer">
     <div class="l-container">
         <h2>Contact</h2>
