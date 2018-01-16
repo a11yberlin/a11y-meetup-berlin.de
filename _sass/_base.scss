@@ -46,7 +46,6 @@ a {
     font-size: 1em;
     font-weight: bold;
     transition: border-width 0.1s, color 0.1s;
-
     &:hover,
     &:focus {
         color: $color-secondary;
@@ -66,7 +65,6 @@ sup {
 
 abbr {
     text-decoration: none;
-
     &:after {
         border-bottom: none;
         content: '?';
