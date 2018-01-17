@@ -3,9 +3,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{% if page.title %}{{ page.title }} | {% endif %} A11y Meetup Berlin</title>
-    <meta name="description" content="">
+    <meta name="description" content="{% if page.description %}{{ page.description }} {% else %}A usergroup about accessibility and inclusive design.{% endif %}">
 
-     <link rel="stylesheet" href="{{ " ./css/main.css " }}">
+    <style>{% capture include_to_sassify %}{% include main.scss %}{% endcapture %}{{ include_to_sassify | scssify }}</style>
+
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{ " ./images/apple-touch-icon.png " }}">
     <link rel="shortcut icon" href="{{ " ./images//favicon.ico " }}" type="image/x-icon">
