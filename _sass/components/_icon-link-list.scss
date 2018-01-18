@@ -1,26 +1,28 @@
 .icon-link-list {
-  padding: 0;
-  list-style: none;
-  
-  li {
-    margin-bottom: 1em;
-  }
-
-  a {
-    text-decoration: none;
-    border: none;
-    font-size: 1.2em;
-
-    &:hover,
-    &:focus {
-      span {
-        border-bottom: 3px solid;
-      }
+    padding: 0;
+    list-style: none;
+    li {
+        margin-bottom: 1em;
     }
-  }
-
-  img {
-    margin-right: 1em;
-    vertical-align: middle;
-  }
+    a {
+        text-decoration: none;
+        border: none;
+        font-size: 1.2em;
+        &:hover,
+        &:focus {
+            span {
+                border-bottom: 3px solid;
+            }
+        }
+    }
+    li:last-of-type {
+        text-align: right;
+        a {
+            font-size: 1em;
+        }
+    }
+    img {
+        margin-right: 1em;
+        vertical-align: middle;
+    }
 }
