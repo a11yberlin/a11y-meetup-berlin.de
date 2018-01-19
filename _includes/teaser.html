@@ -8,4 +8,10 @@
       {% endif %}
     </p>
     <p>{{ include.text }}</p>
+    {% if include.slides %}
+      <a class="button" href="{{ include.slides }}" rel="noopener">Slides</a>
+    {% endif %}
+    {% if include.video %}
+      <a class="button" href="{{ include.video }}" rel="noopener">Video</a>
+    {% endif %}
 </article>
