@@ -3,21 +3,15 @@
     list-style: none;
 
     li {
-        margin-bottom: 1em;
-
         &:last-of-type {
             text-align: right;
-            
-            a {
-                font-size: 1em;
-            }
         }
     }
 
     a {
         text-decoration: none;
         border: none;
-        font-size: 1.2em;
+
         &:hover,
         &:focus {
             .link-text {
