@@ -11,24 +11,32 @@
         <h2>Contact</h2>
         <ul class="icon-link-list">
             <li>
+                <a href="mailto:info@a11y-meetup-berlin.de" rel="noopener">
+                    <span class="link-icon icon-email" aria-hidden="true"></span>
+                    <span class="link-text">info@a11y-meetup-berlin.de</span>
+                </a>
+            </li>
+            <li>
                 <a href="https://twitter.com/a11yberlin" rel="noopener">
-                    <img src="images/twitter-icon.png" alt="">
-                    <span>Follow us on twitter</span>
+                    <span class="link-icon icon-twitter" aria-hidden="true"></span>
+                    <span class="link-text">Follow us on twitter</span>
                 </a>
             </li>
             <li>
                 <a href="https://www.meetup.com/de-DE/A11y-Meetup-Berlin" rel="noopener">
-                    <img src="images/meetup-icon.png" alt="">
-                    <span>Find us on Meetup.com</span>
+                    <span class="link-icon icon-meetup" aria-hidden="true"></span>
+                    <span class="link-text">Find us on Meetup.com</span>
                 </a>
             </li>
             <li>
                 <a href="https://github.com/a11yberlin/a11y-meetup-berlin.de" rel="noopener">
-                    <img src="images/github-icon.png" alt="">
-                    <span>Watch the code on GitHub</span>
+                    <span class="link-icon icon-github" aria-hidden="true"></span>
+                    <span class="link-text">Watch the code on GitHub</span>
                 </a>
             </li>
-            <li><a href="legal.html" {% if page.url=='/legal.html' %} aria-current="page" {% endif %}>Legal</a></li>
+            <li>
+                <a href="legal.html" {% if page.url=='/legal.html' %} aria-current="page" {% endif %}>Legal</a>
+            </li>
         </ul>
     </div>
 </footer>

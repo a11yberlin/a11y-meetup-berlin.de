@@ -1,28 +1,34 @@
 .icon-link-list {
     padding: 0;
     list-style: none;
+
     li {
         margin-bottom: 1em;
+
+        &:last-of-type {
+            text-align: right;
+            
+            a {
+                font-size: 1em;
+            }
+        }
     }
+
     a {
         text-decoration: none;
         border: none;
         font-size: 1.2em;
         &:hover,
         &:focus {
-            span {
+            .link-text {
                 border-bottom: 3px solid;
             }
         }
     }
-    li:last-of-type {
-        text-align: right;
-        a {
-            font-size: 1em;
-        }
-    }
-    img {
-        margin-right: 1em;
+
+    .link-icon {
+        font-size: 1.5em;
+        margin-right: 0.5em;
         vertical-align: middle;
     }
 }
