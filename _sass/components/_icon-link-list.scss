@@ -2,27 +2,26 @@
     padding: 0;
     list-style: none;
     li {
-        margin-bottom: 1em;
+        margin: 0 0 0.3em 0;
+        &:last-of-type {
+            text-align: right;
+        }
     }
     a {
         text-decoration: none;
         border: none;
-        font-size: 1.2em;
         &:hover,
         &:focus {
-            span {
+            .link-text {
                 border-bottom: 3px solid;
             }
         }
     }
-    li:last-of-type {
-        text-align: right;
-        a {
-            font-size: 1em;
-        }
-    }
-    img {
-        margin-right: 1em;
+    svg {
+        width: 24px;
+        height: 24px;
+        fill: #fff;
+        margin-right: 0.5em;
         vertical-align: middle;
     }
 }
