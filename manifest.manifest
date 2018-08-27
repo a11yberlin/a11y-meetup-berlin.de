@@ -1,30 +1,30 @@
 {
     "lang": "en",
-    "short_name": "a11y Berlin",
-    "name": "a11y Meetup Berlin",
+    "short_name": "A11y Berlin",
+    "name": "A11y Meetup Berlin",
     "icons": [
         {
-            "src": "/images/photo-150.jpg",
+            "src": "/images/logo-150px.png",
             "sizes": "150x150",
             "type": "image/jpeg"
         },
             {
-            "src": "/images/photo-200.jpg",
+            "src": "/images/logo-200px.png",
             "sizes": "200x200",
             "type": "image/jpeg"
         },
         {
-            "src": "/images/photo-300.jpg",
+            "src": "/images/logo-300px.png",
             "sizes": "300x300",
             "type": "image/jpeg"
         },
         {
-            "src": "/images/photo-500.jpg",
+            "src": "/images/logo-500px.png",
             "sizes": "500x500",
             "type": "image/jpeg"
         },
         {
-            "src": "/images/photo-600.jpg",
+            "src": "/images/logo-600px.png",
             "sizes": "600x600",
             "type": "image/jpeg"
         },
