@@ -3,26 +3,34 @@ import PropTypes from 'prop-types'
 
 import Header from './header'
 import '../styles/base.css'
+import '../styles/helper.css'
 import '../styles/layout.css'
 
-const Layout = ({ children, location }) => (
+const Layout = ({ children }) => (
   <>
-    <Header location />
-    <div
+    <a
+      href="#main"
+      className="visibleOnFocus"
       style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `0px 1.0875rem 1.45rem`,
-        paddingTop: 0,
+        display: 'inline-block',
+        margin: '1rem 1rem 2rem',
       }}
     >
-      <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        ❤️ by the A11y Berlin
-      </footer>
-    </div>
+      skip to content
+    </a>
+    <Header />
+    <main id="main" className="l-container l-mainContent">
+      {children}
+    </main>
+    <footer
+      style={{
+        textAlign: 'center',
+      }}
+    >
+      © {new Date().getFullYear()} Built with
+      {` `}
+      ❤️ by the A11y Berlin
+    </footer>
   </>
 )
 

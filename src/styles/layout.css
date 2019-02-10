@@ -1,12 +1,11 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
-  --default-spacing: 2rem;
-
-  --color-primary: #003846;
-  --color-secondary: #c91700;
-  --color-text: #111;
-  --color-green: #00c800;
-  --color-light-background: #efefef;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  line-height: 1.5;
+  color: var(--color-text);
+  overflow-x: hidden;
+  font-size: 1.2rem;
 }
 
 .l-container {

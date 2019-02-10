@@ -1,0 +1,31 @@
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  color: #fff;
+  letter-spacing: 0.1em;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a[aria-current='page'] {
+  color: #fff;
+  border-bottom: 3px solid;
+}
+
+@media (min-width: 52rem) {
+  .nav li {
+    display: inline;
+    margin-right: 1em;
+  }
+
+  .nav li:last-of-type {
+    margin-right: 0;
+  }
+}
