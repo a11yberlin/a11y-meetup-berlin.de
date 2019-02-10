@@ -1,0 +1,28 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  --default-spacing: 2rem;
+
+  --color-primary: #003846;
+  --color-secondary: #c91700;
+  --color-text: #111;
+  --color-green: #00c800;
+  --color-light-background: #efefef;
+}
+
+.l-container {
+  max-width: 50em;
+  margin: 0 auto;
+  padding: 0 var(--default-spacing);
+  clear: both;
+}
+
+.l-flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.l-mainContent {
+  margin-bottom: 5rem;
+}

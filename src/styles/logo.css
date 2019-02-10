@@ -2,11 +2,6 @@
   text-decoration: none;
   border: none;
   margin: 0 auto;
-
-  @media (min-width: 52rem) {
-    margin-right: $default-spacing;
-    margin-left: 0;
-  }
 }
 
 .logo__img {
@@ -15,4 +10,11 @@
   border-radius: 50%;
   border: none;
   vertical-align: bottom;
+}
+
+@media (min-width: 52rem) {
+  .logo {
+    margin-right: var(--default-spacing);
+    margin-left: 0;
+  }
 }

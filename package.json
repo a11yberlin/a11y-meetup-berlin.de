@@ -1,0 +1,29 @@
+{
+  "name": "a11y-meetup-berlin",
+  "private": true,
+  "description": "A website of the A11y Meetup Berlin usergroup.",
+  "version": "0.1.0",
+  "author": "Radimir Bitsov <radimir.bitsov@gmail.com>",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "dependencies": {
+    "gatsby": "^2.0.118",
+    "gatsby-plugin-manifest": "^2.0.17",
+    "gatsby-plugin-offline": "^2.0.23",
+    "gatsby-plugin-react-helmet": "^3.0.6",
+    "gatsby-plugin-sharp": "^2.0.20",
+    "gatsby-source-filesystem": "^2.0.20",
+    "gatsby-transformer-sharp": "^2.1.13",
+    "prop-types": "^15.6.2",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-helmet": "^5.2.0"
+  },
+  "license": "MIT",
+  "repository": "a11yberlin/a11y-meetup-berlin.de"
+}

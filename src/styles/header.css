@@ -1,0 +1,23 @@
+.siteHeader {
+  padding: var(--default-spacing) 0;
+
+  background-color: var(--color-primary);
+  color: #FFF;
+  outline: 0.7rem dashed var(--color-primary);
+}
+
+.siteHeader a {
+  color: #FFF;
+}
+
+.siteHeader__nav {
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 52rem) {
+  .siteHeader__nav {
+    width: auto;
+    text-align: right;
+  }
+}
