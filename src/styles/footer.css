@@ -1,0 +1,9 @@
+.siteFooter {
+  padding: var(--default-spacing);
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.siteFooter a {
+  color: #fff;
+}

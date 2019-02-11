@@ -2,12 +2,11 @@
   padding: var(--default-spacing) 0;
 
   background-color: var(--color-primary);
-  color: #FFF;
-  outline: 0.7rem dashed var(--color-primary);
+  color: #fff;
 }
 
 .siteHeader a {
-  color: #FFF;
+  color: #fff;
 }
 
 .siteHeader__nav {
