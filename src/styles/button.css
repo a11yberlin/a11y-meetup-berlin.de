@@ -1,0 +1,25 @@
+.button {
+  padding: 0.8em 1.2em 0.6em;
+  background-color: var(--color-primary);
+  line-height: 1;
+  border-bottom: 3px solid transparent;
+  display: inline-block;
+  color: #fff;
+  transition: background-color 0.3s;
+  font-size: 1.2rem;
+  margin-right: 1em;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--color-secondary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.button--green:hover,
+.button--green:focus {
+  background-color: var(--color-green);
+  border-color: var(--color-text);
+  color: var(--color-text);
+}
