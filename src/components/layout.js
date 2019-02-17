@@ -18,7 +18,7 @@ const highlightContent = {
   },
 }
 
-const Layout = ({ children }) => (
+const Layout = ({ noHighlight, children }) => (
   <>
     <a
       href="#main"
@@ -34,16 +34,19 @@ const Layout = ({ children }) => (
     <main id="main" className="l-container l-mainContent">
       {children}
     </main>
-    <Highlight
-      title={highlightContent.title}
-      content={highlightContent.content}
-      link={highlightContent.link}
-    />
+    {!noHighlight && (
+      <Highlight
+        title={highlightContent.title}
+        content={highlightContent.content}
+        link={highlightContent.link}
+      />
+    )}
     <Footer />
   </>
 )
 
 Layout.propTypes = {
+  noHighlight: PropTypes.bool,
   children: PropTypes.node.isRequired,
 }
 
