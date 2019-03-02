@@ -1,8 +1,8 @@
-import { Link } from 'gatsby'
-import React from 'react'
+import { Link } from 'gatsby';
+import React from 'react';
 
-import logoImg from '../images/logo.png'
-import '../styles/logo.css'
+import logoImg from '../images/logo.png';
+import '../styles/logo.css';
 
 const Logo = () => (
   <Link to="/" className="logo">
@@ -14,6 +14,6 @@ const Logo = () => (
       alt="A11y Berlin"
     />
   </Link>
-)
+);
 
-export default Logo
+export default Logo;

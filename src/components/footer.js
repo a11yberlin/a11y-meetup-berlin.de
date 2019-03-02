@@ -1,18 +1,18 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
+import { Link } from 'gatsby';
 
-import emailIcon from '../icons/email.svg'
-import twitterIcon from '../icons/twitter.svg'
-import meetupIcon from '../icons/meetup.svg'
-import colloqIcon from '../icons/colloq.svg'
-import githubIcon from '../icons/github.svg'
+import emailIcon from '../icons/email.svg';
+import twitterIcon from '../icons/twitter.svg';
+import meetupIcon from '../icons/meetup.svg';
+import colloqIcon from '../icons/colloq.svg';
+import githubIcon from '../icons/github.svg';
 
-import '../styles/footer.css'
-import '../styles/icon-list.css'
+import '../styles/footer.css';
+import '../styles/icon-list.css';
 
 const isPartiallyActive = ({ isPartiallyCurrent }) => {
-  return isPartiallyCurrent ? { 'aria-current': 'page' } : null
-}
+  return isPartiallyCurrent ? { 'aria-current': 'page' } : null;
+};
 
 const contacts = [
   {
@@ -40,7 +40,7 @@ const contacts = [
     text: 'Watch the code on GitHub',
     icon: githubIcon,
   },
-]
+];
 
 const Footer = () => (
   <footer role="contentinfo" className="siteFooter">
@@ -70,6 +70,6 @@ const Footer = () => (
       ❤️ by the A11y Berlin Team
     </div>
   </footer>
-)
+);
 
-export default Footer
+export default Footer;

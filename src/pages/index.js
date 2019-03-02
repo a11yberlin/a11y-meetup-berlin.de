@@ -1,14 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
-import Event from '../components/event'
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import Event from '../components/event';
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" keywords={[`a11y`, `inclusivity`, `usergroup`]} />
     <Event />
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

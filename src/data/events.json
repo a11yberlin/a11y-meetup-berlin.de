@@ -1,0 +1,58 @@
+[
+  {
+    "date": "2019-03-04",
+    "editionNumber": 6,
+    "doorsOpenTime": "7:15pm",
+    "talksStartTime": "7:45pm",
+    "colloqLink": "https://colloq.io/events/a11y-meetup-berlin/2019/berlin/1",
+    "meetupLink": "https://www.meetup.com/A11y-Meetup-Berlin/events/258865968/",
+    "teasers": [
+      {
+        "headline": "No more excuses: getting to the first 30%",
+        "subline": "Tim von Oldenburg, Senior UX Engineer at ResearchGate",
+        "text": "Only 30% of accessibility issues on a website can be caught by automated testing, according to the GDS accessibility team. But those 30% are a great baseline to operate from, and we should strive to make it as easy as possible for everyone to get there. In this talk, Tim will tell the story of how they’re trying to get to the first 30% at ResearchGate: how they approached those issues, the obstacles they’re facing, and what new exciting possibilities await them in the future.",
+        "link": "https://twitter.com/sweeneytimm"
+      },
+      {
+        "headline": "Accessible PDF",
+        "subline": "Klaas Posselt, Freelance consultant / Print- and media technology",
+        "text": "Navigating through unstructured documents is a really problematic process especially for people with visual impairments. In his talk Klaas will share with us the basic knowledge about accessible PDF files and they ways to create them.",
+        "link": "https://twitter.com/einmanncombo"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-11",
+    "editionNumber": 5,
+    "doorsOpenTime": "7:00pm",
+    "talksStartTime": "7:30pm",
+    "colloqLink": "https://colloq.io/events/a11y-meetup-berlin/2018/berlin/5",
+    "meetupLink": "https://www.meetup.com/A11y-Meetup-Berlin/events/255450708/",
+    "teasers": [
+      {
+        "headline": "WCAG 2.1 : quick overview and slow digestion",
+        "subline": "Aurélien Levy, Accessibility expert and CEO of Temesis",
+        "text": "During this talk, Aurélien will quickly present the new success criteria of WCAG 2.1 avoiding jargon terminology. Using concrete examples he will tell us what it changes in term of design or development. On the menu, mobile, low vision, voice recognition and cognitive disability contexts.",
+        "link": "https://twitter.com/sweeneytimm"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-1",
+    "editionNumber": 4,
+    "doorsOpenTime": "7:00pm",
+    "talksStartTime": "7:30pm",
+    "colloqLink": "https://colloq.io/events/a11y-meetup-berlin/2018/berlin/4",
+    "meetupLink": "https://www.meetup.com/A11y-Meetup-Berlin/events/251177628/",
+    "teasers": [
+      {
+        "headline": "Beyond translations — technical, logistical and cultural constraints of an international online shop",
+        "subline": "Matthias Kentzia, Product Manager at Project A",
+        "text": "Going international can reap huge financial benefits for a company. But internationalising your product is not as simple as just translating a couple of texts. In order to make it accessible, you need to localise the entire experience. In this talk, we’ll be looking at a case-study to explore some of the less obvious requirements of an internationalisation project.",
+        "link": "http://mattkentzia.com/",
+        "slides": "https://drive.google.com/file/d/1I1nhj7OfWdt6dIOf8r9iaL2JPxsLKeFB/view",
+        "video": "https://www.youtube.com/watch?v=CR9n8SJt8RA"
+      }
+    ]
+  }
+]

@@ -19,6 +19,7 @@
     "gatsby-plugin-sharp": "^2.0.20",
     "gatsby-plugin-svg-sprite": "^2.0.1",
     "gatsby-source-filesystem": "^2.0.20",
+    "gatsby-transformer-json": "^2.1.8",
     "gatsby-transformer-sharp": "^2.1.13",
     "prop-types": "^15.6.2",
     "react": "^16.8.0",

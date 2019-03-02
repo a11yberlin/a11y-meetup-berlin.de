@@ -1,11 +1,11 @@
-import { Link } from 'gatsby'
-import React from 'react'
+import { Link } from 'gatsby';
+import React from 'react';
 
-import '../styles/nav.css'
+import '../styles/nav.css';
 
 const isPartiallyActive = ({ isPartiallyCurrent }) => {
-  return isPartiallyCurrent ? { 'aria-current': 'page' } : null
-}
+  return isPartiallyCurrent ? { 'aria-current': 'page' } : null;
+};
 
 const Nav = () => (
   <nav aria-label="Main Navigation" className="nav">
@@ -30,6 +30,6 @@ const Nav = () => (
       </li>
     </ul>
   </nav>
-)
+);
 
-export default Nav
+export default Nav;

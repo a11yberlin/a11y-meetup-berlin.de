@@ -1,7 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import '../styles/button.css'
+import '../styles/button.css';
 
 const Teaser = ({ headline, subline, text, link, slides, video }) => (
   <article
@@ -41,7 +41,7 @@ const Teaser = ({ headline, subline, text, link, slides, video }) => (
       </a>
     )}
   </article>
-)
+);
 
 Teaser.propTypes = {
   headline: PropTypes.string,
@@ -50,6 +50,6 @@ Teaser.propTypes = {
   link: PropTypes.string,
   slides: PropTypes.string,
   video: PropTypes.string,
-}
+};
 
-export default Teaser
+export default Teaser;

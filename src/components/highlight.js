@@ -1,6 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
 
 const Highlight = ({ title = '', content = '', link }) => (
   <section
@@ -17,7 +17,7 @@ const Highlight = ({ title = '', content = '', link }) => (
       </p>
     </div>
   </section>
-)
+);
 
 Highlight.propTypes = {
   title: PropTypes.string,
@@ -26,6 +26,6 @@ Highlight.propTypes = {
     to: PropTypes.string,
     text: PropTypes.string,
   }),
-}
+};
 
-export default Highlight
+export default Highlight;

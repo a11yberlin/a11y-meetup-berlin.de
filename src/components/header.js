@@ -1,8 +1,8 @@
-import React from 'react'
-import Logo from './logo'
-import Nav from './nav.js'
+import React from 'react';
+import Logo from './logo';
+import Nav from './nav.js';
 
-import '../styles/header.css'
+import '../styles/header.css';
 
 const Header = () => (
   <header role="banner" className="siteHeader">
@@ -14,6 +14,6 @@ const Header = () => (
       </div>
     </div>
   </header>
-)
+);
 
-export default Header
+export default Header;

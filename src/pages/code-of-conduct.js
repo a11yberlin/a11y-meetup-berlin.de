@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
+import { Link } from 'gatsby';
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const CodeOfConduct = () => (
   <Layout noHighlight>
@@ -10,6 +10,6 @@ const CodeOfConduct = () => (
     <h1>Code Of Conduct</h1>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
-)
+);
 
-export default CodeOfConduct
+export default CodeOfConduct;

@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
+import { Link } from 'gatsby';
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const LegalPage = () => (
   <Layout>
@@ -10,6 +10,6 @@ const LegalPage = () => (
     <h1>Legal</h1>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
-)
+);
 
-export default LegalPage
+export default LegalPage;

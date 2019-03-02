@@ -1,12 +1,12 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import Header from './header'
-import Footer from './footer'
-import Highlight from './highlight'
-import '../styles/base.css'
-import '../styles/helper.css'
-import '../styles/layout.css'
+import Header from './header';
+import Footer from './footer';
+import Highlight from './highlight';
+import '../styles/base.css';
+import '../styles/helper.css';
+import '../styles/layout.css';
 
 const highlightContent = {
   title: 'Code of Conduct',
@@ -16,7 +16,7 @@ const highlightContent = {
     to: '/code-of-conduct',
     text: 'Code of Conduct',
   },
-}
+};
 
 const Layout = ({ noHighlight, children }) => (
   <>
@@ -43,11 +43,11 @@ const Layout = ({ noHighlight, children }) => (
     )}
     <Footer />
   </>
-)
+);
 
 Layout.propTypes = {
   noHighlight: PropTypes.bool,
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;

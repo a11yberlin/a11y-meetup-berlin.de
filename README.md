@@ -61,3 +61,7 @@ $ npm run serve
 5.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
 6.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+
+## ✍️ Content editing
+
+To add a new event, follow the existing data model that you can find at `src/data/events.json` and a new object to that file. The order is from newest to oldest events.
