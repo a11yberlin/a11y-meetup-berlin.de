@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://a11y-meetup-berlin.de">
-    <img alt="A11y Berlin" src="src/images/logo.jpg" width="120" />
+    <img alt="A11y Berlin" src="src/images/logo.png" width="120" />
   </a>
 </p>
 
