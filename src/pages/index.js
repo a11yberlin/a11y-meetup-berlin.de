@@ -6,7 +6,7 @@ import Event from '../components/event';
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" keywords={[`a11y`, `inclusivity`, `usergroup`]} />
+    <SEO title="Home" keywords={[`accessibility`, `inclusivity`, `usergroup`]} />
     <Event />
   </Layout>
 );

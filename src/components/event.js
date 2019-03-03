@@ -1,7 +1,7 @@
 import React from 'react';
-import Teaser from './teaser';
 import { StaticQuery, graphql } from 'gatsby';
 
+import Teaser from './teaser';
 import formatDate from '../utils/formatDate';
 
 import '../styles/button.css';
@@ -9,7 +9,7 @@ import '../styles/button.css';
 const Event = () => (
   <StaticQuery
     query={graphql`
-      query EventsQuery {
+      query EventQuery {
         allEventsJson(limit: 1) {
           edges {
             node {
