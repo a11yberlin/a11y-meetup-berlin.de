@@ -1,0 +1,31 @@
+.iconList {
+  padding: 0;
+  list-style: none;
+}
+.iconList li {
+  margin: 0 0 0.3em 0;
+}
+.iconList li:last-of-type {
+  text-align: right;
+}
+.iconList a {
+  text-decoration: none;
+  border: none;
+}
+.iconList a:hover,
+.iconList a:focus {
+  color: #fff;
+}
+
+.iconList a:hover .linkText,
+.iconList a:focus .linkText {
+  border-bottom: 3px solid;
+}
+
+.iconList svg {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
