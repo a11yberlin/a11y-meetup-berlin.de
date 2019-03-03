@@ -7,6 +7,7 @@ import Event from '../components/event';
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`accessibility`, `inclusivity`, `usergroup`]} />
+    <h1>A11y Meetup Berlin</h1>
     <Event />
   </Layout>
 );
