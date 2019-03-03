@@ -7,31 +7,6 @@ import Teaser from '../components/teaser';
 
 import formatDate from '../utils/formatDate';
 
-export const query = graphql`
-  query EventsQuery {
-    allEventsJson {
-      edges {
-        node {
-          date
-          editionNumber
-          doorsOpenTime
-          talksStartTime
-          colloqLink
-          meetupLink
-          teasers {
-            headline
-            subline
-            text
-            link
-            slides
-            video
-          }
-        }
-      }
-    }
-  }
-`;
-
 const MeetupsPage = ({ data }) => {
   const events = data.allEventsJson ? data.allEventsJson.edges : null;
 
@@ -90,5 +65,30 @@ const MeetupsPage = ({ data }) => {
     </Layout>
   );
 };
+
+export const query = graphql`
+  query EventsQuery {
+    allEventsJson {
+      edges {
+        node {
+          date
+          editionNumber
+          doorsOpenTime
+          talksStartTime
+          colloqLink
+          meetupLink
+          teasers {
+            headline
+            subline
+            text
+            link
+            slides
+            video
+          }
+        }
+      }
+    }
+  }
+`;
 
 export default MeetupsPage;
