@@ -4,7 +4,7 @@ import React from 'react';
 import '../styles/logo.css';
 
 const Logo = () => (
-  <Link to="/" className="logo">
+  <Link to="/" className="logo" aria-label="A11y Berlin Logo">
     <svg
       version="1"
       xmlns="http://www.w3.org/2000/svg"
