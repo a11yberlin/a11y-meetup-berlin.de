@@ -1,16 +1,15 @@
 .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
-  border: none;
   margin: 0 auto;
-}
-
-.logo__img {
-  width: 11rem;
-  height: 11rem;
-  height: auto;
+  width: 176px;
+  height: 176px;
+  background-color: #fff;
   border-radius: 50%;
   border: none;
-  vertical-align: bottom;
+  padding-bottom: 25px;
 }
 
 @media (min-width: 52rem) {
