@@ -12,14 +12,16 @@
         "subline": "Tim von Oldenburg, Senior UX Engineer at ResearchGate",
         "text": "Only 30% of accessibility issues on a website can be caught by automated testing, according to the GDS accessibility team. But those 30% are a great baseline to operate from, and we should strive to make it as easy as possible for everyone to get there. In this talk, Tim will tell the story of how they’re trying to get to the first 30% at ResearchGate: how they approached those issues, the obstacles they’re facing, and what new exciting possibilities await them in the future.",
         "link": "https://twitter.com/sweeneytimm",
-        "slides": "https://speakerdeck.com/tvooo/no-more-excuses-getting-the-first-30-percent-of-accessibility-issues"
+        "slides": "https://speakerdeck.com/tvooo/no-more-excuses-getting-the-first-30-percent-of-accessibility-issues",
+        "video": "https://www.youtube.com/watch?v=z5xH8i-nkXs"
       },
       {
         "headline": "Accessible PDF",
         "subline": "Klaas Posselt, Freelance consultant / Print- and media technology",
         "text": "Navigating through unstructured documents is a really problematic process especially for people with visual impairments. In his talk Klaas will share with us the basic knowledge about accessible PDF files and they ways to create them.",
         "link": "https://twitter.com/einmanncombo",
-        "slides": "https://www.dropbox.com/s/wq7n05by577lx86/slides_a11y-Berlin_20190304.pdf?dl=0"
+        "slides": "https://www.dropbox.com/s/wq7n05by577lx86/slides_a11y-Berlin_20190304.pdf?dl=0",
+        "video": "https://www.youtube.com/watch?v=UugXCKOlf_A"
       }
     ]
   },
@@ -35,7 +37,8 @@
         "headline": "WCAG 2.1 : quick overview and slow digestion",
         "subline": "Aurélien Levy, Accessibility expert and CEO of Temesis",
         "text": "During this talk, Aurélien will quickly present the new success criteria of WCAG 2.1 avoiding jargon terminology. Using concrete examples he will tell us what it changes in term of design or development. On the menu, mobile, low vision, voice recognition and cognitive disability contexts.",
-        "link": "https://twitter.com/sweeneytimm"
+        "link": "https://twitter.com/sweeneytimm",
+        "video": "https://www.youtube.com/watch?v=eVG6lWM7RQ8"
       }
     ]
   },
