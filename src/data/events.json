@@ -1,5 +1,21 @@
 [
   {
+    "date": "2019-05-28",
+    "editionNumber": 7,
+    "doorsOpenTime": "6:00pm",
+    "talksStartTime": "6:30pm",
+    "colloqLink": "https://colloq.io/events/a11y-meetup-berlin/2019/berlin/2",
+    "meetupLink": "https://www.meetup.com/A11y-Meetup-Berlin/events/259443382/",
+    "teasers": [
+      {
+        "headline": "Accessibility driven design",
+        "subline": "Kama Jania, User Experience Designer at Polidea",
+        "text": "You probably know that research with users is the key to success. But how to start it if you have a zero budget and only a vague idea for your product, which is about helping to reduce everyday obstacles for disabled people? For most products there are accessibility standards or guidelines available, which are the basic guide to ensure that your product is designed in a way accessible to everyone. However, standards and guidelines are not everything. What you need to do is to understand the everyday problems and challenges for disabled people as well as accessibility issues - how do people with disabilities interact with digital products, how do they use them and what are their needs?",
+        "link": "https://twitter.com/kamajania"
+      }
+    ]
+  },
+  {
     "date": "2019-03-04",
     "editionNumber": 6,
     "doorsOpenTime": "7:15pm",
