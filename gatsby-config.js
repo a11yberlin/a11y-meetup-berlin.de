@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `A11y Meetup Berlin`,
+    siteUrl: `https://a11y-meetup-berlin.de`,
     description: `A11y Meetup Berlin - a usergroup about accessibility and inclusive design.`,
     author: `@a11yberlin`,
   },
