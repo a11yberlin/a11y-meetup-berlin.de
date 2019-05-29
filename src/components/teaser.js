@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import '../styles/button.css';
 
-const Teaser = ({ headline, subline, text, link, slides, video }) => (
+const Teaser = ({ headline, subline, text, link, slides, video, audio }) => (
   <article
     style={{
       paddingLeft: '2em',
@@ -40,6 +40,11 @@ const Teaser = ({ headline, subline, text, link, slides, video }) => (
         Video
       </a>
     )}
+    {audio && (
+      <a className="button" href={audio} rel="noopener">
+        Audio
+      </a>
+    )}
   </article>
 );
 
@@ -50,6 +55,7 @@ Teaser.propTypes = {
   link: PropTypes.string,
   slides: PropTypes.string,
   video: PropTypes.string,
+  audio: PropTypes.string,
 };
 
 export default Teaser;

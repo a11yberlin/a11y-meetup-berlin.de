@@ -54,46 +54,52 @@ const Event = () => (
               Berlin #{event.editionNumber} on {formatDate(event.date, true)}. Please
               share with your friends and spread the word.
             </p>
-            <p>
-              Doors open: {event.doorsOpenTime}
-              <br />
-              Talks start: {event.talksStartTime}
-            </p>
+            {event.doorsOpenTime && event.talksStartTime && (
+              <p>
+                Doors open: {event.doorsOpenTime}
+                <br />
+                Talks start: {event.talksStartTime}
+              </p>
+            )}
+
             <p>
               The main goal is to encourage everyone talking, thinking, and learning
               about digital access / inclusion and people with different
               disabilities.
             </p>
           </div>
-
-          <div
-            style={{
-              margin: '2rem 0',
-            }}
-          >
-            <a
-              className="button button--green"
-              href={event.colloqLink}
-              title="Find more information about our upcoming event at colloq.io"
+          {event.colloqLink && (
+            <div
+              style={{
+                margin: '2rem 0',
+              }}
             >
-              Register at Colloq.io
-            </a>
-          </div>
-          <div
-            style={{
-              margin: '2rem 0',
-            }}
-          >
-            <a
-              className="button button--green"
-              href={event.meetupLink}
-              title="If you want to attend the meetup, please let us know at meetup.com"
+              <a
+                className="button button--green"
+                href={event.colloqLink}
+                title="Find more information about our upcoming event at colloq.io"
+              >
+                Register at Colloq.io
+              </a>
+            </div>
+          )}
+          {event.meetupLink && (
+            <div
+              style={{
+                margin: '2rem 0',
+              }}
             >
-              Register at Meetup.com
-            </a>
-          </div>
+              <a
+                className="button button--green"
+                href={event.meetupLink}
+                title="If you want to attend the meetup, please let us know at meetup.com"
+              >
+                Register at Meetup.com
+              </a>
+            </div>
+          )}
           <h3>Speakers</h3>
-          {event.teasers.length &&
+          {event.teasers.length ? (
             event.teasers.map(teaser => (
               <div key={teaser.headline}>
                 <Teaser
@@ -103,7 +109,10 @@ const Event = () => (
                   link={teaser.link}
                 />
               </div>
-            ))}
+            ))
+          ) : (
+            <p>To be announced.</p>
+          )}
         </section>
       ) : (
         <section

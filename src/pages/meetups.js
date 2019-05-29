@@ -55,6 +55,7 @@ const MeetupsPage = ({ data }) => {
                       link={teaser.link}
                       slides={teaser.slides}
                       video={teaser.video}
+                      audio={teaser.audio}
                     />
                   </div>
                 ))}
@@ -84,6 +85,7 @@ export const query = graphql`
             link
             slides
             video
+            audio
           }
         }
       }
