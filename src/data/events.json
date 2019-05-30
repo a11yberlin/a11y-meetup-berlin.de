@@ -19,16 +19,16 @@
         "subline": "Kama Jania, User Experience Designer at Polidea",
         "text": "You probably know that research with users is the key to success. But how to start it if you have a zero budget and only a vague idea for your product, which is about helping to reduce everyday obstacles for disabled people? For most products there are accessibility standards or guidelines available, which are the basic guide to ensure that your product is designed in a way accessible to everyone. However, standards and guidelines are not everything. What you need to do is to understand the everyday problems and challenges for disabled people as well as accessibility issues - how do people with disabilities interact with digital products, how do they use them and what are their needs?",
         "link": "https://twitter.com/kamajania",
-        "slides": "https://docs.google.com/presentation/d/1HZCWTNR1467XckfbyO6fKYXO-h1bNJy3EEM8VZGKn4g/edit",
-        "audio": "https://soundcloud.com/a11y-meetup-berlin/accessibility-driven-design"
+        "slides": "https://speakerdeck.com/a11yberlin/accessibility-driven-design",
+        "audio": "https://soundcloud.com/a11y-berlin/accessibility-driven-design"
       },
       {
         "headline": "Directive (EU) 2016/2102 and its adoption into Berlin Law (BIKTG Bln, 2019)",
         "subline": "Wiebke Müller and Cornelia Stolt, Department for Information- and Communication Technology Strategy at Berlin Senate Administration for Interior and Sports",
         "text": "Wiebke and Cornelia will summarize the EU directive on digital accessibility in the public sector and its adoption into Berlin law. Furthermore, they will explain how the city is implementing this law on an administrative level.",
         "link": "https://www.berlin.de/sen/inneres/moderne-verwaltung/digitale-barrierefreiheit/kompetenzstelle/",
-        "slides": "https://docs.google.com/presentation/d/1GJPTkK2tUQ8wl5ZSvxCqGW8hPTmiDl_7IehMgwBiuOQ/edit",
-        "audio": "https://soundcloud.com/a11y-meetup-berlin/eu-directive-20162102"
+        "slides": "https://speakerdeck.com/a11yberlin/2102-and-its-adoption-into-berlin-law-biktg-bln-2019",
+        "audio": "https://soundcloud.com/a11y-berlin/eu-directive-20162102"
       }
     ]
   },
