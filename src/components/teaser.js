@@ -27,7 +27,7 @@ const Teaser = ({ headline, subline, text, link, slides, video, audio }) => (
         margin: '1em 0',
       }}
     >
-      {link ? <a href={link}>{subline}</a> : { subline }}
+      {link && link.length > 0 ? <a href={link}>{subline}</a> : { subline }}
     </p>
     <p>{text}</p>
     {slides && (

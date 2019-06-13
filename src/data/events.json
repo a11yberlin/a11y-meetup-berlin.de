@@ -2,9 +2,30 @@
   {
     "date": "2019-07-02",
     "editionNumber": 8,
-    "doorsOpenTime": "",
-    "talksStartTime": "",
-    "teasers": []
+    "doorsOpenTime": "6:30pm",
+    "talksStartTime": "7:00pm",
+    "colloqLink": "https://colloq.io/events/a11y-meetup-berlin/2019/berlin/3",
+    "meetupLink": "https://www.meetup.com/A11y-Meetup-Berlin/events/261798213/",
+    "teasers": [
+      {
+        "headline": "A11y checklist for everyone",
+        "subline": "Priyanka Naik, Front-end developer and accessibility in-charge at diesdas.digital",
+        "text": "I believe A11y is a team effort and everyone has a role to play in the project. So, I have checklist for specific roles like for project manager, UI/UX designer, and developer. The Idea is to present the checklist with the Right tools which can help them testing. Hence talk will be helpful for everyone, one who has zero knowledge, can learn checklist and tools laters he/she will be able to make an accessible website.",
+        "link": "https://twitter.com/priyankanaik625"
+      },
+      {
+        "headline": "Lower literacy: it’s not the user, it’s the product!",
+        "subline": "Damien Senger, Design systems & Accessibility lead at Castor EDC",
+        "text": "Reading is not an easy thing. It is complicated for people with reading or cognitive impairments but also for everybody depending of the context. Luckily for all our users, there is a lot of small improvements and tips every designer, content-writer and developer can do in a project to improve the life all of our users.",
+        "link": "https://twitter.com/iamhiwelo"
+      },
+      {
+        "headline": "An intro to accessible web-apps",
+        "subline": "Marcus Herrmann, Freelance web developer, consultant for web accessibility",
+        "text": "A brief introduction to accessible web apps, what new challenges they bring for users of assistive technologies - and how both JavaScript framework creators and accessibility folks could help ensure that developers can truly develop 'web-apps for everyone'.",
+        "link": "https://twitter.com/_marcusherrmann"
+      }
+    ]
   },
   {
     "date": "2019-05-28",
