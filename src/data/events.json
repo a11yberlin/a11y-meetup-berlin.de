@@ -1,5 +1,21 @@
 [
   {
+    "date": "2019-10-28",
+    "editionNumber": 9,
+    "doorsOpenTime": "6:30pm",
+    "talksStartTime": "7:00pm",
+    "colloqLink": "",
+    "meetupLink": "https://www.meetup.com/A11y-Meetup-Berlin/events/265683907/",
+    "teasers": [
+      {
+        "headline": "How to build empathy for strangers with special needs",
+        "subline": "Kai Katonina, UX designer at DKB",
+        "text": "If you don't have disabled people around, it might be hard to see people behind the formal requirements of WCAG. Of course the best strategy is to meet them personally, but it's not always easy. I want to share how I grew from an ignorant person to a strong advocate for accessibility and inclusivity just by lying on a couch and watching Youtube. I will talk about why it's important to build this kind of empathy and share videos that changed me.",
+        "link": "https://www.linkedin.com/in/katonina/"
+      }
+    ]
+  },
+  {
     "date": "2019-07-02",
     "editionNumber": 8,
     "doorsOpenTime": "6:30pm",
