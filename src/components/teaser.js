@@ -23,7 +23,6 @@ const Teaser = ({ headline, subline, text, link, slides, video, audio }) => (
     <p
       style={{
         fontWeight: 'bold',
-        textTransform: 'uppercase',
         margin: '1em 0',
       }}
     >
