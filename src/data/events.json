@@ -11,13 +11,15 @@
         "headline": "How to build empathy for strangers with special needs",
         "subline": "Kai Katonina, UX designer at DKB",
         "text": "If you don't have disabled people around, it might be hard to see people behind the formal requirements of WCAG. Of course the best strategy is to meet them personally, but it's not always easy. I want to share how I grew from an ignorant person to a strong advocate for accessibility and inclusivity just by lying on a couch and watching Youtube. I will talk about why it's important to build this kind of empathy and share videos that changed me.",
-        "link": "https://www.linkedin.com/in/katonina/"
+        "link": "https://www.linkedin.com/in/katonina/",
+        "slides": "https://docs.google.com/presentation/d/1Qgx1TeeRtzuKgPUAf1n0Af89HmUyCc7ieCOgmQ7fdi4"
       },
       {
         "headline": "Accessibility, Inputs & Vue",
         "subline": "Oscar Braunert (Web developer,  Kitchen Stories)",
         "text": "At the end of February, WebAIM published The WebAIM Million, an accessibility analysis of the homepages of the one million most visited websites. The findings are depressing. The average site contained about 60 errors. Things went even more downhill when putting JS frameworks in the equation. As a reaction to those findings, this talk tries to shed light on some accessibility best practices regarding accessible inputs, as well as do soul-searching why we, as developers, have failed so badly.",
-        "link": "https://twitter.com/_ovlb"
+        "link": "https://twitter.com/_ovlb",
+        "slides": "https://talks.ovl.design/OY4mvA"
       }
     ]
   },
