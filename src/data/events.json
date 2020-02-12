@@ -1,5 +1,27 @@
 [
   {
+    "date": "2020-03-17",
+    "editionNumber": 10,
+    "doorsOpenTime": "6:30pm",
+    "talksStartTime": "7:00pm",
+    "colloqLink": "https://colloq.io/events/a11y-meetup-berlin/2020/berlin/1",
+    "meetupLink": "https://www.meetup.com/A11y-Meetup-Berlin/events/268636426/",
+    "teasers": [
+      {
+        "headline": "Build Web with empathy",
+        "subline": "Manjula Dube (Web Engineer, N26)",
+        "text": "Building web applications has been fairly easy now, However, an often-missing ingredient in many web applications is a focus on accessibility best practices — especially when component libraries are part of their application. Nothing in frameworks prevents us from building accessible web apps, but we need to learn to harness its power in the right way while dealing with some unique challenges caused by creating web pages with JavaScript. This talk will focus on these issues and how to solve them in the real world, while also adding some a11y power to your development process. This talk will also focus on why it is important to build accessible web apps.",
+        "link": "https://twitter.com/manjula_dube"
+      },
+      {
+        "headline": "The Power of the Individual and Individual Acts",
+        "subline": "Beatriz Crespo (UX Lead, Caspar Health)",
+        "text": "Daily decisions taken in design or government offices are leaving part of the population aside (e.g. making it impossible for many people to use online services that are by now mandatory). In this talk, we will reflect on the power of the individual, regardless of the role they may have in their company or society, to act and how seemingly small or unimportant decisions can in fact contribute to greater transformative change.",
+        "link": "https://www.linkedin.com/in/beatritze/"
+      }
+    ]
+  },
+  {
     "date": "2019-10-28",
     "editionNumber": 9,
     "doorsOpenTime": "6:30pm",
