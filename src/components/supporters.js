@@ -18,7 +18,7 @@ const Supporters = () => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <section
         style={{
           marginBottom: '5rem',
@@ -58,7 +58,6 @@ const Supporters = () => (
                   }}
                   src={supporter.node.profileImg}
                   alt={supporter.node.name}
-                  loading="lazy"
                   width="52"
                   height="52"
                 />

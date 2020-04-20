@@ -1,7 +1,7 @@
 [
   {
     "name": "Michael Scharnagl",
-    "profileImg": "https://pics.paypal.com/00/p/ZTQ5Mjk0NWEtNWIzMy00NDVmLWExNGEtYjUxNWE0YWM1NGYw/image_14.JPG"
+    "profileImg": "/supporters/michael-scharnagl.jpeg"
   },
   {
     "name": "Holger Dieterich",
@@ -9,7 +9,7 @@
   },
   {
     "name": "Tino Hußlack",
-    "profileImg": "https://pics.paypal.com/00/p/YzJlMzA0MTItYzM4Mi00NWMxLWE2OGEtZGI4NWJjY2NlNTNk/image_14.PNG"
+    "profileImg": "/supporters/tino-hußlack.png"
   },
   {
     "name": "LuJan-Paul Bauercy",
@@ -17,10 +17,10 @@
   },
   {
     "name": "Athanasia Makrygianni",
-    "profileImg": "https://pics.paypal.com/00/p/ZjQ1Njc5NWYtMjk5MC00MTNkLTlkY2EtNjVjNjg5NjUyOWUw/image_14.JPG"
+    "profileImg": "/supporters/athanasia-makrygianni.jpeg"
   },
   {
     "name": "Bernhard Kau",
-    "profileImg": "https://pics.paypal.com/00/p/MjQ2YzEwZTYtYWI2OC00ZTVjLWE4YTMtNzc4ZDE4YWIzMDdh/image_14.JPG"
+    "profileImg": "/supporters/bernhard-kau.jpeg"
   }
 ]
