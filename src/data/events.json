@@ -1,5 +1,25 @@
 [
   {
+    "date": "2020-05-12",
+    "editionNumber": 11,
+    "doorsOpenTime": "6:30pm",
+    "talksStartTime": "7:00pm",
+    "meetupLink": "https://www.meetup.com/A11y-Meetup-Berlin/events/269177611/",
+    "teasers": [
+      {
+        "headline": "Accessibility in video games",
+        "subline": "Taner Aydin (Web dev and accessibility consultant)",
+        "text": "When I've started in accessibility I learned a lot about real life a11y, regulations, mandatory a11y for public sector websites and apps and hopefully soon mandatory accessibility for the private sector as well. These are all the minimum requirements for accessibility. But I wanted to see what we can already do for a11y on the other end of the spectrum with private entertainment products. This to me opened the door to the huge new accessibility world inside video games. In my talk I want to give a broad overview of what a11y for gamers means, what common missteps there are, and show techniques to improve a11y in video games.",
+        "link": "https://taner-aydin.dev"
+      },
+      {
+        "headline": "Available speaker slot",
+        "subline": "Submit your talk proposal",
+        "link": "https://a11y-meetup-berlin.de/submit"
+      }
+    ]
+  },
+  {
     "date": "2020-03-17",
     "editionNumber": 10,
     "doorsOpenTime": "6:30pm",
