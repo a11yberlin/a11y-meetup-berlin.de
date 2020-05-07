@@ -13,9 +13,10 @@
         "link": "https://taner-aydin.dev"
       },
       {
-        "headline": "Available speaker slot",
-        "subline": "Submit your talk proposal",
-        "link": "https://a11y-meetup-berlin.de/submit"
+        "headline": "Building WEB APP for everyone - a11y with React",
+        "subline": "Manjula Dube (Web Engineer, N26)",
+        "text": "With the growing community and great tutorials, it's relatively easy nowadays to start building web applications with React. However, the vital aspect of accessibility is often missing which leads to web applications creating exclusions. Nothing in React prevents us from building accessible web experiences, but we need to learn to harness its power in the right way while dealing with some unique challenges caused by creating web pages with JavaScript. This talk will focus on how to solve these issues in the context of React. It'll also emphasize why it is important to build accessible web apps.",
+        "link": "https://twitter.com/manjula_dube"
       }
     ]
   },
