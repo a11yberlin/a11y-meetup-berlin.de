@@ -10,13 +10,15 @@
         "headline": "Accessibility in video games",
         "subline": "Taner Aydin (Web dev and accessibility consultant)",
         "text": "When I've started in accessibility I learned a lot about real life a11y, regulations, mandatory a11y for public sector websites and apps and hopefully soon mandatory accessibility for the private sector as well. These are all the minimum requirements for accessibility. But I wanted to see what we can already do for a11y on the other end of the spectrum with private entertainment products. This to me opened the door to the huge new accessibility world inside video games. In my talk I want to give a broad overview of what a11y for gamers means, what common missteps there are, and show techniques to improve a11y in video games.",
-        "link": "https://taner-aydin.dev"
+        "link": "https://taner-aydin.dev",
+        "slides": "https://drive.google.com/file/d/1IaY0-tA_hk0Kxr8v8hhgDX2fA5upPdQP/view"
       },
       {
         "headline": "Building WEB APP for everyone - a11y with React",
         "subline": "Manjula Dube (Web Engineer, N26)",
         "text": "With the growing community and great tutorials, it's fairly easy nowadays to start building web applications with React. However, the vital aspect of accessibility is often missing which leads to web applications creating exclusions. Nothing in React prevents us from building accessible web experiences, but we need to learn to harness its power in the right way while dealing with some unique challenges caused by creating web pages with JavaScript. This talk will focus on how to solve these issues in the context of React. It'll also emphasise why it is important to build accessible web apps. In the end I will also share some cool things that chrome dev tools provides you in order to make your web app more accessible.",
-        "link": "https://twitter.com/manjula_dube"
+        "link": "https://twitter.com/manjula_dube",
+        "slides": "https://a11y-with-manjula.netlify.app"
       }
     ]
   },
