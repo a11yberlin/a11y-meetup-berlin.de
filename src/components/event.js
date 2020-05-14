@@ -32,7 +32,7 @@ const Event = () => (
         }
       }
     `}
-    render={data => {
+    render={(data) => {
       const event = data.allEventsJson ? data.allEventsJson.edges[0].node : null;
 
       return event ? (
@@ -52,7 +52,12 @@ const Event = () => (
             <p>
               Mark your calendars for <abbr title="Accessibility">A11y</abbr> Meetup
               Berlin #{event.editionNumber} on {formatDate(event.date, true)}. Please
-              share with your friends and spread the word.
+              share with your friends and spread the word. As part of this event,
+              we'll celebrate this year's{' '}
+              <a href="https://globalaccessibilityawarenessday.org/">
+                Global Awareness Accessibility Day (GAAD)
+              </a>{' '}
+              initiative!
             </p>
             {event.doorsOpenTime && event.talksStartTime && (
               <p>
@@ -100,7 +105,7 @@ const Event = () => (
           )}
           <h3>Speakers</h3>
           {event.teasers.length ? (
-            event.teasers.map(teaser => (
+            event.teasers.map((teaser) => (
               <div key={teaser.headline}>
                 <Teaser
                   headline={teaser.headline}
