@@ -1,5 +1,28 @@
 [
   {
+    "date": "2020-06-09",
+    "editionNumber": 12,
+    "doorsOpenTime": "6:30pm",
+    "talksStartTime": "7:00pm",
+    "meetupLink": "https://www.meetup.com/A11y-Meetup-Berlin/events/270405303/",
+    "teasers": [
+      {
+        "headline": "Living With Asperger's",
+        "subline": "Dr. Ian McDonald (CTO in residence, Microsoft for Startups)",
+        "text": "Dr Ian McDonald has been a visionary technology leader for over 20 years and is currently CTO in residence at Microsoft for Startups covering Western Europe. He’s previously lead teams at a range of corporates and startups & built global scale systems. Ian is resident in the London office assisting startups in the ScaleUp late stage accelerator, alongside leading the AI Factory team in France. He also works across the startup ecosystem to help people unleash their dreams using the power of Microsoft technology. In particular Ian is passionate about assisting under-represented people. Ian will talk about his diagnosis, his background, & how having Asperger's affects his life.",
+        "link": "https://twitter.com/imcdnzl",
+        "video": "https://www.youtube.com/watch?v=PHa8HKtH1do"
+      },
+      {
+        "headline": "Neurodiversity In Tech",
+        "subline": "Wesley Faulkner, Virginie Caplet, Franziska Hauck",
+        "text": "Wesley Faulkner is a first-generation American. He is a founding member of the government transparency group Open Austin & ran for Austin City Council in 2016. His professional experience also includes work as a social media & community manager for the software company Atlassian, & various roles for the computer processor company AMD, Dell, and IBM. Wesley Faulkner serves as a board member for South by Southwest Interactive (SXSWi) & works as a Technical Community Manager for MongoDB. Virginie Caplet is a senior product designer passionate about user research & agile practices. After more than 15 years in the digital industry, she decided her mission would be to help organizations, teams, & individuals to get rid of legacy systems, legacy practices, & legacy mindsets. Along the way, she discovered how to take advantage of being neurodiverse by using the uncommon perspectives & connections it creates to better spread knowledge about creativity, design leadership, & passion for the craft.",
+        "link": "https://www.youtube.com/watch?v=iNN-czpOx9w",
+        "video": "https://www.youtube.com/watch?v=iNN-czpOx9w"
+      }
+    ]
+  },
+  {
     "date": "2020-05-12",
     "editionNumber": 11,
     "doorsOpenTime": "6:30pm",
