@@ -52,12 +52,7 @@ const Event = () => (
             <p>
               Mark your calendars for <abbr title="Accessibility">A11y</abbr> Meetup
               Berlin #{event.editionNumber} on {formatDate(event.date, true)}. Please
-              share with your friends and spread the word. As part of this event,
-              we'll celebrate this year's{' '}
-              <a href="https://globalaccessibilityawarenessday.org/">
-                Global Awareness Accessibility Day (GAAD)
-              </a>{' '}
-              initiative!
+              share with your friends and spread the word.
             </p>
             {event.doorsOpenTime && event.talksStartTime && (
               <p>

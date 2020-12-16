@@ -1,5 +1,20 @@
 [
   {
+    "date": "2021-01-20",
+    "editionNumber": 13,
+    "doorsOpenTime": "6:30pm",
+    "talksStartTime": "7:00pm",
+    "meetupLink": "https://www.meetup.com/A11y-Meetup-Berlin/events/275173450/",
+    "teasers": [
+      {
+        "headline": "Designing for the extremes - design thinking and turning everyone into an a11y persona",
+        "subline": "Beatriz Gonzalez Mellidez (Principal Product Designer, SinnerSchrader)",
+        "text": "When we design for average users, we are missing the sweet spot that leads to innovation and disruption. Many customers don't want to hear the word accessibility but get excited about design thinking. We can use design thinking techniques to get our stakeholders excited about accessibility and inclusive design even if they would have never been interested in buying it otherwise.",
+        "link": "http://twitter.com/b_atish"
+      }
+    ]
+  },
+  {
     "date": "2020-06-09",
     "editionNumber": 12,
     "doorsOpenTime": "6:30pm",
