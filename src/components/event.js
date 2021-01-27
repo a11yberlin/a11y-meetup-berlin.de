@@ -34,6 +34,7 @@ const Event = () => (
     `}
     render={(data) => {
       const event = data.allEventsJson ? data.allEventsJson.edges[0].node : null;
+      const isPastEvent = new Date() > new Date(event.date);
 
       return event ? (
         <section
@@ -42,33 +43,37 @@ const Event = () => (
           }}
         >
           <h2>
-            Next meetup on{' '}
+            {!isPastEvent ? 'Next meetup' : 'Last meetup was'} on{' '}
             <time
               dateTime={event.date}
               dangerouslySetInnerHTML={{ __html: formatDate(event.date) }}
             />
           </h2>
           <div>
-            <p>
-              Mark your calendars for <abbr title="Accessibility">A11y</abbr> Meetup
-              Berlin #{event.editionNumber} on {formatDate(event.date, true)}. Please
-              share with your friends and spread the word.
-            </p>
-            {event.doorsOpenTime && event.talksStartTime && (
-              <p>
-                Doors open: {event.doorsOpenTime}
-                <br />
-                Talks start: {event.talksStartTime}
-              </p>
+            {!isPastEvent && (
+              <>
+                <p>
+                  Mark your calendars for <abbr title="Accessibility">A11y</abbr>{' '}
+                  Meetup Berlin #{event.editionNumber} on{' '}
+                  {formatDate(event.date, true)}. Please share with your friends and
+                  spread the word.
+                </p>
+                {event.doorsOpenTime && event.talksStartTime && (
+                  <p>
+                    Doors open: {event.doorsOpenTime}
+                    <br />
+                    Talks start: {event.talksStartTime}
+                  </p>
+                )}
+              </>
             )}
-
             <p>
               The main goal is to encourage everyone talking, thinking, and learning
               about digital access / inclusion and people with different
               disabilities.
             </p>
           </div>
-          {event.colloqLink && (
+          {event.colloqLink && !isPastEvent && (
             <div
               style={{
                 margin: '2rem 0',
@@ -83,7 +88,7 @@ const Event = () => (
               </a>
             </div>
           )}
-          {event.meetupLink && (
+          {event.meetupLink && !isPastEvent && (
             <div
               style={{
                 margin: '2rem 0',
