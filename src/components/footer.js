@@ -69,6 +69,7 @@ const Footer = () => (
       {` `}
       ❤️ by the A11y Berlin Team
     </div>
+    <!-- test -->
   </footer>
 );
 
