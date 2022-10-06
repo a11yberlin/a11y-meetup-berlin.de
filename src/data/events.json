@@ -1,5 +1,30 @@
 [
   {
+    "date": "2022-10-05",
+    "editionNumber": 14,
+    "doorsOpenTime": "6:30pm",
+    "talksStartTime": "7:00pm",
+    "meetupLink": "https://www.meetup.com/de-DE/a11y-meetup-berlin/events/288225801/",
+    "teasers": [
+      {
+        "headline": "How to write text alternatives",
+        "subline": "Marc Haunschild",
+        "text": "Providing information for non-textual content can be quite challenging and it involves a quite big number of success criteria. So I thought it could be a could idea to sum up all the questions, answers and examples I gave throughout the years and make a little talk of it.",
+        "link": "https://haunschild.de/",
+        "video": "",
+        "slides": ""
+      },
+      {
+        "headline": "The UX of Accessibility checklist",
+        "subline": "Marion Couesnon",
+        "text": "There are many different accessibility checklist you can find on Internet. But what makes a great one? And how can you integrate it to your process? These are the 2 main questions I will cover in this talk. The talk is based on my experience using an accessibility checklist for over a year in my current project.",
+        "link": "https://twitter.com/marioncouesnon",
+        "video": "",
+        "slides": ""
+      }
+    ]
+  },
+  {
     "date": "2021-01-20",
     "editionNumber": 13,
     "doorsOpenTime": "6:30pm",
