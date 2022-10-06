@@ -67,9 +67,8 @@ const Footer = () => (
     <div style={{ textAlign: 'center', paddingBottom: '1em' }}>
       © {new Date().getFullYear()} Built with
       {` `}
-      ❤️ by the A11y Berlin Team
+      ❤️ by the A11y Berlin Team.
     </div>
-    <!-- test -->
   </footer>
 );
 
