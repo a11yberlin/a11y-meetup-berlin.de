@@ -12,11 +12,11 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
-    "gatsby": "^2.20.27",
+    "gatsby": "^5.5.0",
     "gatsby-plugin-manifest": "^2.0.20",
     "gatsby-plugin-offline": "^2.0.24",
     "gatsby-plugin-react-helmet": "^3.0.7",
-    "gatsby-plugin-sharp": "^2.4.0",
+    "gatsby-plugin-sharp": "^2.14.4",
     "gatsby-plugin-svg-sprite": "^2.0.1",
     "gatsby-source-filesystem": "^2.0.23",
     "gatsby-transformer-json": "^2.1.8",
