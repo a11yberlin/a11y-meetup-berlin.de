@@ -12,6 +12,7 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
+          <link href="https://berlin.social/@a11yberlin" rel="me" >
           {this.props.headComponents}
         </head>
         <body {...this.props.bodyAttributes}>
